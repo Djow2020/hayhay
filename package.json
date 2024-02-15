@@ -1,0 +1,25 @@
+{
+  "name": "local",
+  "displayName": "prefecture-rdv",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ZoZhang/prefecture-rdv",
+  "description": "Vérification la disponibilité du RDV à la préfecture France",
+  "main": "./server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "prefecture rdv"
+  ],
+  "author": "Zhao ZHANG",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "*",
+    "moment": "^2.29.1",
+    "query-string": "^7.0.0",
+    "request": "^2.88.2",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {}
+}

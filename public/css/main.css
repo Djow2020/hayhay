@@ -1,0 +1,75 @@
+.text-info {
+    color: #e8e8e8!important;
+}
+
+.text-danger {
+    color: #ff4658!important;
+}
+
+.text-yello {
+    color: #e2ef3b!important;
+}
+
+.text-success {
+    color: #2ee057!important;
+}
+
+.text-primary {
+    color: #986cff!important;
+}
+
+.text-warning {
+    color: #f441ff!important;
+}
+
+#console {
+    visibility: hidden;
+    padding: 5px;
+    overflow-y: scroll;
+    max-height: 19rem;
+    list-style: none;
+    -webkit-padding-start: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 1em;
+    border: 1px solid #000;
+    overflow-y: auto;
+    width: 100%;
+    background: #404346;
+    color: #fff;
+    min-height: 309px;
+}
+
+#console > li {
+    margin-bottom: 9px;
+    border-bottom: 1px #fff dashed;
+    word-break: break-all;
+    padding: 0 0 4px 0;
+    position: relative;
+}
+
+#console > li.text-success {
+    color:#32f2fd;
+}
+
+#console > li > a {
+    color:#30d4cd;
+}
+
+#console > li > time {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+
+    #console > li > time {
+        position: initial;
+        display: block;
+    }
+
+    .text-nowrap {
+       white-space: normal!important;
+    }
+}
